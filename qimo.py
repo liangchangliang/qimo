@@ -120,7 +120,7 @@ def show_project_intro():
     with image_column:
         # 关键修改：路径改为 images/捕获.PNG，适配子文件夹存放
         # width=180 可按需调整图片大小
-        st.image("images/捕获.png", width=800)  # 已适配images文件夹，无需其他修改
+        st.image("images/捕获.PNG", width=800)  # 已适配images文件夹，无需其他修改
 
     st.divider()
 
@@ -481,3 +481,4 @@ elif nav_option == "专业成绩分析":
     show_major_analysis()
 elif nav_option == "成绩预测":
     show_score_prediction()
+
